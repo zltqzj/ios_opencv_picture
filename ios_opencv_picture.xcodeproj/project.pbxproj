@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C48FD28C17B32C6D00A6FFB5 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C48FD28B17B32C6D00A6FFB5 /* libc++.1.dylib */; };
+		C48FD28E17B32C7100A6FFB5 /* libc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C48FD28D17B32C7100A6FFB5 /* libc.dylib */; };
+		C48FD2A817B3932000A6FFB5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C48FD2A617B3932000A6FFB5 /* 1.jpg */; };
+		C48FD2A917B3932000A6FFB5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C48FD2A717B3932000A6FFB5 /* 3.jpg */; };
+		C48FD2AB17B393BE00A6FFB5 /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C48FD2AA17B393BE00A6FFB5 /* libc++abi.dylib */; };
 		C48FE0CA17B0E8D300538FC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48FE0C917B0E8D300538FC2 /* UIKit.framework */; };
 		C48FE0CC17B0E8D300538FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48FE0CB17B0E8D300538FC2 /* Foundation.framework */; };
 		C48FE0CE17B0E8D300538FC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48FE0CD17B0E8D300538FC2 /* CoreGraphics.framework */; };
@@ -16,9 +21,18 @@
 		C48FE0DC17B0E8D500538FC2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C48FE0DB17B0E8D500538FC2 /* Default.png */; };
 		C48FE0DE17B0E8D500538FC2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C48FE0DD17B0E8D500538FC2 /* Default@2x.png */; };
 		C48FE0E017B0E8D500538FC2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C48FE0DF17B0E8D500538FC2 /* Default-568h@2x.png */; };
+		C48FE0E917B0E90100538FC2 /* PictureViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C48FE0E717B0E90100538FC2 /* PictureViewController.mm */; };
+		C48FE0EA17B0E90100538FC2 /* PictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C48FE0E817B0E90100538FC2 /* PictureViewController.xib */; };
+		C48FE0EC17B0E96E00538FC2 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48FE0EB17B0E96E00538FC2 /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C48FD28B17B32C6D00A6FFB5 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
+		C48FD28D17B32C7100A6FFB5 /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = usr/lib/libc.dylib; sourceTree = SDKROOT; };
+		C48FD2A317B347B100A6FFB5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C48FD2A617B3932000A6FFB5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		C48FD2A717B3932000A6FFB5 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		C48FD2AA17B393BE00A6FFB5 /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
 		C48FE0C617B0E8D300538FC2 /* ios_opencv_picture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_opencv_picture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48FE0C917B0E8D300538FC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C48FE0CB17B0E8D300538FC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +46,10 @@
 		C48FE0DB17B0E8D500538FC2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C48FE0DD17B0E8D500538FC2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C48FE0DF17B0E8D500538FC2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C48FE0E617B0E90100538FC2 /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		C48FE0E717B0E90100538FC2 /* PictureViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PictureViewController.mm; sourceTree = "<group>"; };
+		C48FE0E817B0E90100538FC2 /* PictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureViewController.xib; sourceTree = "<group>"; };
+		C48FE0EB17B0E96E00538FC2 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ios_opencv_picture/opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48FD2AB17B393BE00A6FFB5 /* libc++abi.dylib in Frameworks */,
+				C48FD28E17B32C7100A6FFB5 /* libc.dylib in Frameworks */,
+				C48FD28C17B32C6D00A6FFB5 /* libc++.1.dylib in Frameworks */,
+				C48FE0EC17B0E96E00538FC2 /* opencv2.framework in Frameworks */,
 				C48FE0CA17B0E8D300538FC2 /* UIKit.framework in Frameworks */,
 				C48FE0CC17B0E8D300538FC2 /* Foundation.framework in Frameworks */,
 				C48FE0CE17B0E8D300538FC2 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +73,9 @@
 		C48FE0BD17B0E8D300538FC2 = {
 			isa = PBXGroup;
 			children = (
+				C48FD2AA17B393BE00A6FFB5 /* libc++abi.dylib */,
+				C48FD28D17B32C7100A6FFB5 /* libc.dylib */,
+				C48FD28B17B32C6D00A6FFB5 /* libc++.1.dylib */,
 				C48FE0CF17B0E8D300538FC2 /* ios_opencv_picture */,
 				C48FE0C817B0E8D300538FC2 /* Frameworks */,
 				C48FE0C717B0E8D300538FC2 /* Products */,
@@ -68,6 +93,8 @@
 		C48FE0C817B0E8D300538FC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C48FD2A317B347B100A6FFB5 /* SenTestingKit.framework */,
+				C48FE0EB17B0E96E00538FC2 /* opencv2.framework */,
 				C48FE0C917B0E8D300538FC2 /* UIKit.framework */,
 				C48FE0CB17B0E8D300538FC2 /* Foundation.framework */,
 				C48FE0CD17B0E8D300538FC2 /* CoreGraphics.framework */,
@@ -78,8 +105,13 @@
 		C48FE0CF17B0E8D300538FC2 /* ios_opencv_picture */ = {
 			isa = PBXGroup;
 			children = (
+				C48FD2A617B3932000A6FFB5 /* 1.jpg */,
+				C48FD2A717B3932000A6FFB5 /* 3.jpg */,
 				C48FE0D817B0E8D500538FC2 /* AppDelegate.h */,
 				C48FE0D917B0E8D500538FC2 /* AppDelegate.m */,
+				C48FE0E617B0E90100538FC2 /* PictureViewController.h */,
+				C48FE0E717B0E90100538FC2 /* PictureViewController.mm */,
+				C48FE0E817B0E90100538FC2 /* PictureViewController.xib */,
 				C48FE0D017B0E8D400538FC2 /* Supporting Files */,
 			);
 			path = ios_opencv_picture;
@@ -154,6 +186,9 @@
 				C48FE0DC17B0E8D500538FC2 /* Default.png in Resources */,
 				C48FE0DE17B0E8D500538FC2 /* Default@2x.png in Resources */,
 				C48FE0E017B0E8D500538FC2 /* Default-568h@2x.png in Resources */,
+				C48FE0EA17B0E90100538FC2 /* PictureViewController.xib in Resources */,
+				C48FD2A817B3932000A6FFB5 /* 1.jpg in Resources */,
+				C48FD2A917B3932000A6FFB5 /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +201,7 @@
 			files = (
 				C48FE0D617B0E8D400538FC2 /* main.m in Sources */,
 				C48FE0DA17B0E8D500538FC2 /* AppDelegate.m in Sources */,
+				C48FE0E917B0E90100538FC2 /* PictureViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +278,14 @@
 		C48FE0E417B0E8D500538FC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ios_opencv_picture\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios_opencv_picture/ios_opencv_picture-Prefix.pch";
 				INFOPLIST_FILE = "ios_opencv_picture/ios_opencv_picture-Info.plist";
@@ -253,6 +297,14 @@
 		C48FE0E517B0E8D500538FC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ios_opencv_picture\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios_opencv_picture/ios_opencv_picture-Prefix.pch";
 				INFOPLIST_FILE = "ios_opencv_picture/ios_opencv_picture-Info.plist";
@@ -280,6 +332,7 @@
 				C48FE0E517B0E8D500538FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

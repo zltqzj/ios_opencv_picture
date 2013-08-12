@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "PictureViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -15,6 +15,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+   
+    PictureViewController* pictureVC = [[PictureViewController alloc] initWithNibName:@"PictureViewController" bundle:nil];
+     UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController:pictureVC];
+    self.window.rootViewController = nav;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
